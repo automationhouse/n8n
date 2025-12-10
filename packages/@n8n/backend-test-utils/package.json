@@ -34,6 +34,7 @@
     "uuid": "catalog:"
   },
   "devDependencies": {
-    "@n8n/typescript-config": "workspace:*"
+    "@n8n/typescript-config": "workspace:*",
+    "ts-essentials": "^7.0.3"
   }
 }

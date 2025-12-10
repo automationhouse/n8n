@@ -547,6 +547,9 @@ importers:
       '@n8n/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
+      ts-essentials:
+        specifier: ^7.0.3
+        version: 7.0.3(typescript@5.9.2)
 
   packages/@n8n/benchmark:
     dependencies:
