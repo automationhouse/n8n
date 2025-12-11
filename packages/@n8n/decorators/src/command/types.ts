@@ -1,13 +1,10 @@
 import type { Constructable } from '@n8n/di';
-import type { ZodObject } from 'zod';
-
-type FlagsSchema = ZodObject<any, any>;
 
 export type CommandOptions = {
 	name: string;
 	description: string;
 	examples?: string[];
-	flagsSchema?: FlagsSchema;
+	flagsSchema?: any;
 };
 
 export type ICommand = {
@@ -24,5 +21,5 @@ export type CommandEntry = {
 	class: CommandClass;
 	description: string;
 	examples?: string[];
-	flagsSchema?: FlagsSchema;
+	flagsSchema?: any;
 };
